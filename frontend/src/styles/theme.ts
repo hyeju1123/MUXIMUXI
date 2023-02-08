@@ -22,6 +22,8 @@ export const theme: DefaultTheme = {
         purple100: "#c3acd0",
         purple200: "#AF9DBE",
         purple300: "#674188",
+        purple400: "#947EA8",
+        purple500: "#dfd6de",
         indigo100: "#595b7e",
         indigo200: "#181b46",
         plum100: "#9a6383",

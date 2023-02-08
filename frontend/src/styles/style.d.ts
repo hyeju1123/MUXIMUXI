@@ -23,6 +23,8 @@ declare module "styled-components" {
         | "purple100"
         | "purple200"
         | "purple300"
+        | "purple400"
+        | "purple500"
         | "indigo100"
         | "indigo200"
         | "plum100"
