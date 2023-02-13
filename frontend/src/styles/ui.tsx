@@ -54,7 +54,7 @@ export const Text = {
         /* common */
         display: ${({ box }) => (box ? "block" : "inline")};
         cursor: ${({ pointer }) => (pointer ? "pointer" : "auto")};
-        color: ${({ color, theme }) => (color ? theme.color[color] : theme.color.white)};
+        color: ${({ color, theme }) => (color ? theme.color[color] : "white")};
         height: fit-content;
     `,
     Title2: styled.span<StyleText>`
@@ -64,7 +64,7 @@ export const Text = {
         /* common */
         display: ${({ box }) => (box ? "block" : "inline")};
         cursor: ${({ pointer }) => (pointer ? "pointer" : "auto")};
-        color: ${({ color, theme }) => (color ? theme.color[color] : theme.color.white)};
+        color: ${({ color, theme }) => (color ? theme.color[color] : "white")};
         height: fit-content;
     `,
     Title3: styled.span<StyleText>`
@@ -74,7 +74,7 @@ export const Text = {
         /* common */
         display: ${({ box }) => (box ? "block" : "inline")};
         cursor: ${({ pointer }) => (pointer ? "pointer" : "auto")};
-        color: ${({ color, theme }) => (color ? theme.color[color] : theme.color.white)};
+        color: ${({ color, theme }) => (color ? theme.color[color] : "white")};
         height: fit-content;
     `,
 
@@ -85,7 +85,8 @@ export const Text = {
         /* common */
         display: ${({ box }) => (box ? "block" : "inline")};
         cursor: ${({ pointer }) => (pointer ? "pointer" : "auto")};
-        color: ${({ color, theme }) => (color ? theme.color[color] : theme.color.white)};
+        color: ${({ color, theme }) => (color ? theme.color[color] : "white")};
+        // 확인 필요
         height: fit-content;
     `,
     Body2: styled.span<StyleText>`
@@ -95,7 +96,7 @@ export const Text = {
         /* common */
         display: ${({ box }) => (box ? "block" : "inline")};
         cursor: ${({ pointer }) => (pointer ? "pointer" : "auto")};
-        color: ${({ color, theme }) => (color ? theme.color[color] : theme.color.white)};
+        color: ${({ color, theme }) => (color ? theme.color[color] : "white")};
         height: fit-content;
     `,
     Body3: styled.span<StyleText>`
@@ -105,7 +106,7 @@ export const Text = {
         /* common */
         display: ${({ box }) => (box ? "block" : "inline")};
         cursor: ${({ pointer }) => (pointer ? "pointer" : "auto")};
-        color: ${({ color, theme }) => (color ? theme.color[color] : theme.color.white)};
+        color: ${({ color, theme }) => (color ? theme.color[color] : "white")};
         height: fit-content;
     `,
     Body4: styled.span<StyleText>`
@@ -115,7 +116,7 @@ export const Text = {
         /* common */
         display: ${({ box }) => (box ? "block" : "inline")};
         cursor: ${({ pointer }) => (pointer ? "pointer" : "auto")};
-        color: ${({ color, theme }) => (color ? theme.color[color] : theme.color.white)};
+        color: ${({ color, theme }) => (color ? theme.color[color] : "white")};
         height: fit-content;
     `,
     Body5: styled.span<StyleText>`
@@ -125,7 +126,7 @@ export const Text = {
         /* common */
         display: ${({ box }) => (box ? "block" : "inline")};
         cursor: ${({ pointer }) => (pointer ? "pointer" : "auto")};
-        color: ${({ color, theme }) => (color ? theme.color[color] : theme.color.white)};
+        color: ${({ color, theme }) => (color ? theme.color[color] : "white")};
         height: fit-content;
     `,
     Body6: styled.span<StyleText>`
@@ -135,7 +136,7 @@ export const Text = {
         /* common */
         display: ${({ box }) => (box ? "block" : "inline")};
         cursor: ${({ pointer }) => (pointer ? "pointer" : "auto")};
-        color: ${({ color, theme }) => (color ? theme.color[color] : theme.color.white)};
+        color: ${({ color, theme }) => (color ? theme.color[color] : "white")};
         height: fit-content;
     `,
     Body7: styled.span<StyleText>`
@@ -145,7 +146,7 @@ export const Text = {
         /* common */
         display: ${({ box }) => (box ? "block" : "inline")};
         cursor: ${({ pointer }) => (pointer ? "pointer" : "auto")};
-        color: ${({ color, theme }) => (color ? theme.color[color] : theme.color.white)};
+        color: ${({ color, theme }) => (color ? theme.color[color] : "white")};
         height: fit-content;
     `,
     Caption1: styled.span<StyleText>`
@@ -155,7 +156,7 @@ export const Text = {
         /* common */
         display: ${({ box }) => (box ? "block" : "inline")};
         cursor: ${({ pointer }) => (pointer ? "pointer" : "auto")};
-        color: ${({ color, theme }) => (color ? theme.color[color] : theme.color.white)};
+        color: ${({ color, theme }) => (color ? theme.color[color] : "white")};
         height: fit-content;
     `,
     Caption2: styled.span<StyleText>`
@@ -165,7 +166,7 @@ export const Text = {
         /* common */
         display: ${({ box }) => (box ? "block" : "inline")};
         cursor: ${({ pointer }) => (pointer ? "pointer" : "auto")};
-        color: ${({ color, theme }) => (color ? theme.color[color] : theme.color.white)};
+        color: ${({ color, theme }) => (color ? theme.color[color] : theme.color.black)};
         height: fit-content;
     `,
     Caption3: styled.span<StyleText>`
@@ -175,7 +176,7 @@ export const Text = {
         /* common */
         display: ${({ box }) => (box ? "block" : "inline")};
         cursor: ${({ pointer }) => (pointer ? "pointer" : "auto")};
-        color: ${({ color, theme }) => (color ? theme.color[color] : theme.color.white)};
+        color: ${({ color, theme }) => (color ? theme.color[color] : theme.color.black)};
         height: fit-content;
     `,
 };
