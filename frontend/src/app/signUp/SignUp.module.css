@@ -1,0 +1,93 @@
+.blockWithoutNav {
+	margin-left: 295px;
+}
+
+.loginBox {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 150px auto;
+	width: 577px;
+	height: 1135px;
+	background: #f7efe5;
+	border-radius: 30px;
+}
+
+.loginText {
+	margin-top: 50px;
+	font-family: var(--inter-font);
+	font-weight: 600;
+	font-size: 30px;
+	color: #49494d;
+}
+
+.formBox {
+	margin-top: 40px;
+	margin-bottom: 70px;
+	width: 366px;
+	height: auto;
+}
+
+.inputBox {
+	margin-bottom: 20px;
+	width: 366px;
+	height: 65px;
+	background: #ffffff;
+	border-radius: 5px;
+	padding: 15px;
+	border: none;
+}
+
+.inputBox::placeholder {
+	font-family: var(--inter-font);
+	font-weight: 400;
+	font-size: 15px;
+	color: #959599;
+}
+
+.submitButton {
+	margin-top: 50px;
+	width: 366px;
+	height: 65px;
+	background: #674188;
+	border-radius: 5px;
+	border: none;
+	font-family: var(--inter-font);
+	font-weight: 400;
+	font-size: 25px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.submitButton:hover {
+	background: #af9dbe;
+}
+
+.otherServiceBox {
+	margin-top: 60px;
+	width: 366px;
+}
+
+.serviceTextBox {
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.questionText {
+	margin-right: 10px;
+	font-family: var(--inter-font);
+	font-weight: 400;
+	font-size: 13px;
+	color: #d3d3d3;
+}
+
+.buttonText {
+	font-family: var(--inter-font);
+	font-weight: 400;
+	font-size: 13px;
+	color: #595b7e;
+	text-decoration: underline;
+	cursor: pointer;
+}
