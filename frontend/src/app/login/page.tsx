@@ -5,7 +5,10 @@ import Link from "next/link";
 
 export default function LoginPage() {
 	return (
-		<main></main>
+		<main className="flex w-full justify-center">
+			<div className="w-24 h-24 bg-beige">로그인</div>
+		</main>
+
 		// <main>
 		// 	<div className={styles.blockWithoutNav}>
 		// 		<div className={styles.loginBox}>
