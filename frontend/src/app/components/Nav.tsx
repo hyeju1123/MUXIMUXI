@@ -88,18 +88,18 @@ export default function Nav() {
 				
             </Style.Wrapper> */}
 
-            <div className="flex-col w-3/12 h-5/6 border-4 border-red-500">
-                <div>
-                    <div className="border-4 border-green-500">프로필사진</div>
-                    <div className="border-4 border-green-500">ZUITOPIA</div>
+            <div className="flex-col w-[295px] h-[918px] bg-purple50 rounded-b-2xl p-5">
+                <div className="flex py-4">
+                    <div className="w-[50px] h-[40px] flex justify-center items-center rounded-3xl">사진</div>
+                    <div className="w-full h-[40px] text-purple300 flex justify-start items-center pl-3">ZUITOPIA</div>
                 </div>
                 <div>
-                    <div className="border-4 border-black-500">MAIN</div>
-                    <div>
-                        <div className="border-4 border-black-500">SEARCH</div>
-                        <div className="border-4 border-black-500">ITEMS</div>
-                        <div className="border-4 border-black-500">MEGAZINE</div>
-                        <div className="border-4 border-black-500">WISH LIST</div>
+                    <div className="text-purple300 font-semibold opacity-40">MAIN</div>
+                    <div className="border-y-2 border-purple300 opacity-30">
+                        <div className="text-purple200 font-semibold border-4 border-white-500">SEARCH</div>
+                        <div className="text-purple200 font-semibold border-4 border-black-500">ITEMS</div>
+                        <div className="text-purple200 font-semibold border-4 border-black-500">MEGAZINE</div>
+                        <div className="text-purple200-600 border-4 border-black-500">WISH LIST</div>
                     </div>
                 </div>
                 <div className="border-4 border-purple-500">ADD</div>
