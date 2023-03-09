@@ -15,7 +15,7 @@
 
 .loginText {
 	margin-top: 50px;
-	font-family: var(--inter-font);
+
 	font-weight: 600;
 	font-size: 30px;
 	color: #49494d;
@@ -39,7 +39,6 @@
 }
 
 .inputBox::placeholder {
-	font-family: var(--inter-font);
 	font-weight: 400;
 	font-size: 15px;
 	color: #959599;
@@ -52,7 +51,6 @@
 	background: #674188;
 	border-radius: 5px;
 	border: none;
-	font-family: var(--inter-font);
 	font-weight: 400;
 	font-size: 25px;
 	color: #ffffff;
@@ -77,14 +75,12 @@
 
 .questionText {
 	margin-right: 10px;
-	font-family: var(--inter-font);
 	font-weight: 400;
 	font-size: 13px;
 	color: #d3d3d3;
 }
 
 .buttonText {
-	font-family: var(--inter-font);
 	font-weight: 400;
 	font-size: 13px;
 	color: #595b7e;
