@@ -18,19 +18,6 @@ const Style = {
         background-color: #dfd6de;
         border-radius: 0px 0px 20px 20px;
     `,
-    Profile: styled.div`
-        display: flex;
-        align-items: center;
-    `,
-    MainMenu: styled.div`
-        width: 228px;
-        height: 182px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        border-top: 1px solid #947ea8;
-        border-bottom: 1px solid #947ea8;
-    `,
     HoverBox: styled.div`
         width: 228px;
         height: 33px;
@@ -45,7 +32,29 @@ const Style = {
             cursor: pointer;
         }
     `,
-    RecentBox: styled.div``,
+};
+
+const Profile = {
+    Wrapper: styled.div`
+        display: flex;
+        align-items: center;
+    `,
+};
+
+const MainMenu = {
+    Wrapper: styled.div`
+        width: 228px;
+        height: 182px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-top: 1px solid #947ea8;
+        border-bottom: 1px solid #947ea8;
+    `,
+};
+
+const RecentBox = {
+    Wrapper: styled.div``,
     ShowRecentItems: styled.div`
         width: 228px;
         height: 132px;
@@ -56,30 +65,51 @@ const Style = {
 export default function Nav() {
     return (
         <>
-            <Style.Wrapper>
+            {/* <Style.Wrapper>
                 <div>
-                    <Style.Profile>
+                    <Profile.Wrapper>
                         <Image src={originProfile} alt="profile" width={28} height={28} />
                         <Margin direction="row" size={20} />
                         <Text.Body1>ZUITOPIA</Text.Body1>
-                    </Style.Profile>
+                    </Profile.Wrapper>
                     <Margin direction="column" size={36} />
                     <Text.Body1>MAIN</Text.Body1>
                     <Margin direction="column" size={11} />
-                    <Style.MainMenu>
-                        <Style.HoverBox>SEARCH </Style.HoverBox>
+                    <MainMenu.Wrapper>
+                        <Style.HoverBox>SEARCH</Style.HoverBox>
                         <Style.HoverBox>ITEMS</Style.HoverBox>
                         <Style.HoverBox>MAGAZINE</Style.HoverBox>
                         <Style.HoverBox>WISH LIST</Style.HoverBox>
-                    </Style.MainMenu>
+                    </MainMenu.Wrapper>
                     <Margin direction="column" size={11} />
                     <Text.Body1 pointer>ADD</Text.Body1>
                 </div>
-                <Style.RecentBox>
+                <RecentBox.Wrapper>
                     <Text.Body1>RECENT</Text.Body1>
-                    <Style.ShowRecentItems></Style.ShowRecentItems>
-                </Style.RecentBox>
-            </Style.Wrapper>
+                    <RecentBox.ShowRecentItems></RecentBox.ShowRecentItems>
+                </RecentBox.Wrapper>
+            </Style.Wrapper> */}
+
+            <div>
+                <div>
+                    <div>프로필사진</div>
+                    <div>ZUITOPIA</div>
+                </div>
+                <div>
+                    <div>MAIN</div>
+                    <div>
+                        <div>SEARCH</div>
+                        <div>ITEMS</div>
+                        <div>MEGAZINE</div>
+                        <div>WISH LIST</div>
+                    </div>
+                </div>
+                <div>ADD</div>
+                <div>
+                    <div>RECENT</div>
+                    <div>박스</div>
+                </div>
+            </div>
         </>
     );
 }
