@@ -1,5 +1,6 @@
 import "./globals.css";
 import Nav from "@/components/Nav";
+import StyledComponentsRegistry from "@/lib/registry";
 
 export default function RootLayout({
 	children,
@@ -18,7 +19,9 @@ export default function RootLayout({
 					<nav>
 						<Nav />
 					</nav>
-					{children}
+					<StyledComponentsRegistry>
+						{children}
+					</StyledComponentsRegistry>
 				</main>
 			</body>
 		</html>
